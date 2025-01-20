@@ -2,14 +2,14 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:viewModels="clr-namespace:GavilanesAplicacionPais.ViewModel"
-             x:Class="GavilanesAplicacionPais.VistaPrincipal"
+             x:Class="GavilanesAplicacionPais.Views.VistaPrincipal"
              Title="Vista Principal">
 
     <ContentPage.BindingContext>
         <viewModels:VistaPrincipalViewModel />
     </ContentPage.BindingContext>
     <StackLayout Padding="10">
-        <Label Text="Buscar" FontSize="Center" HorizontalOptions="Center" />
+        <Label Text="Buscar" FontSize="Medium" HorizontalOptions="Center" />
 
         <Entry x:Name="paisEntry" Placeholder="Por favor ingresar el nombre del pais" Text="{Binding NombrePais}" />
 

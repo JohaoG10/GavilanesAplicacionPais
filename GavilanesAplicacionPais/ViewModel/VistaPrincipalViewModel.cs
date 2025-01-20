@@ -17,7 +17,6 @@ namespace GavilanesAplicacionPais.ViewModel
             _servicioApi = new ApiService();
             _servicioBaseDeDatos = new ServicioBaseDeDatos();
             BuscarComando = new AsyncRelayCommand(BuscarPaisAsync);
-            LimpiarComando = new RelayCommand(LimpiarCampos);
         }
 
         private string _nombrePais;
@@ -103,14 +102,16 @@ namespace GavilanesAplicacionPais.ViewModel
             }
         }
 
+
+        /*
         private void LimpiarCampos()
         {
             NombrePais = string.Empty;
             Region = string.Empty;
             EnlaceGoogleMaps = string.Empty;
             NombreBD = string.Empty;
-            MensajeError = string.Empty;
-            IsErrorVisible = false;
+            
         }
+        */
     }
 }
