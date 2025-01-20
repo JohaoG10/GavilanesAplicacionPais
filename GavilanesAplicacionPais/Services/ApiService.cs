@@ -3,7 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace AplicacionPais.Services
+namespace GavilanesAplicacionPais.Services
 {
     public class ApiService
     {

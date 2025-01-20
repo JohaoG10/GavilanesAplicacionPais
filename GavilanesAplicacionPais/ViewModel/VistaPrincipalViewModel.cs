@@ -3,7 +3,6 @@ using CommunityToolkit.Mvvm.Input;
 using GavilanesAplicacionPais.Models;
 using System.Threading.Tasks;
 using System.Windows.Input;
-using AplicacionPais.Services;
 using GavilanesAplicacionPais.Services;
 
 namespace GavilanesAplicacionPais.ViewModel
