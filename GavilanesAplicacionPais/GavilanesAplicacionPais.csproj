@@ -65,7 +65,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\VistaPaisConsultado.xaml">
+	  <Compile Update="Views\VistaPaisBuscado.xaml.cs">
+	    <DependentUpon>VistaPaisBuscado.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Views\VistaPaisBuscado.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\VistaPrincipal.xaml">

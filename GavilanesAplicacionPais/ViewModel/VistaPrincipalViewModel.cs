@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using AplicacionPais.Models;
+using GavilanesAplicacionPais.Models;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using AplicacionPais.Services;
